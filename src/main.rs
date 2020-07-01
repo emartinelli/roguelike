@@ -227,7 +227,7 @@ fn main() {
         // clear the screen of the previous frame
         tcod.con.clear();
 
-        // render the screengg
+        // render the screen
         render_all(&mut tcod, &game, &objects);
 
         tcod.root.flush();
